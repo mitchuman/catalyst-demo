@@ -333,8 +333,8 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@20.12.12)
       msw:
-        specifier: ^2.3.0
-        version: 2.3.0(typescript@5.4.5)
+        specifier: ^2.3.2
+        version: 2.3.2(typescript@5.4.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -1588,21 +1588,12 @@ packages:
       chalk: 4.1.2
     dev: false
 
-  /@inquirer/confirm@3.1.6:
-    resolution: {integrity: sha512-Mj4TU29g6Uy+37UtpA8UpEOI2icBfpCwSW1QDtfx60wRhUy90s/kHPif2OXSSvuwDQT1lhAYRWUfkNf9Tecxvg==}
-    engines: {node: '>=18'}
-    dependencies:
-      '@inquirer/core': 8.2.1
-      '@inquirer/type': 1.3.2
-    dev: true
-
   /@inquirer/confirm@3.1.8:
     resolution: {integrity: sha512-f3INZ+ca4dQdn+MQiq1yP/mOIR/Oc8BLRYuDh6ciToWd6z4W8yArfzjBCMQ0BPY8PcJKwZxGIt8Z6yNT32eSTw==}
     engines: {node: '>=18'}
     dependencies:
       '@inquirer/core': 8.2.1
       '@inquirer/type': 1.3.2
-    dev: false
 
   /@inquirer/core@8.2.1:
     resolution: {integrity: sha512-TIcuQMn2qrtyYe0j136UpHeYpk7AcR/trKeT/7YY0vRgcS9YSfJuQ2+PudPhSofLLsHNnRYAHScQCcVZrJkMqA==}
@@ -7062,8 +7053,8 @@ packages:
   /ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  /msw@2.3.0(typescript@5.4.5):
-    resolution: {integrity: sha512-cDr1q/QTMzaWhY8n9lpGhceY209k29UZtdTgJ3P8Bzne3TSMchX2EM/ldvn4ATLOktpCefCU2gcEgzHc31GTPw==}
+  /msw@2.3.2(typescript@5.4.5):
+    resolution: {integrity: sha512-vDn6d6a50vxPE+HnaKQfpmZ4SVXlOjF97yD5FJcUT3v2/uZ65qvTYNL25yOmnrfCNWZ4wtAS7EbtXxygMug2Tw==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -7075,7 +7066,7 @@ packages:
     dependencies:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
-      '@inquirer/confirm': 3.1.6
+      '@inquirer/confirm': 3.1.8
       '@mswjs/cookies': 1.1.0
       '@mswjs/interceptors': 0.29.1
       '@open-draft/until': 2.1.0
